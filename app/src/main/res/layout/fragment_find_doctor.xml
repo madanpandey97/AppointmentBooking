@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kpmadan.otshealthproject.FindDoctorFragment">
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ui.FindDoctorActivity"
+        android:background="@android:color/background_light"
+        android:id="@+id/drawerLayout">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".ui.FindDoctorActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Find A Doctor"
+                android:id="@+id/findDoctorTitle"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search for Doctors"
+                android:id="@+id/specialtySearchButton"
+                android:background="@drawable/email_button"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="20dp"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_below="@+id/specialistSpinner"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="72dp" />
+
+            <TextView
+                android:id="@+id/betterDoctorCreditTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Powered By OtsHealth"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/material_grey_850"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cityEditText"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:hint="City"
+                android:textAlignment="center"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:layout_alignEnd="@+id/betterDoctorCreditTextView"
+                android:textColor="@color/colorAccent"
+                android:layout_below="@+id/findDoctorTitle" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:entries="@array/states"
+                android:prompt="@string/state_prompt"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/stateSpinner"
+                android:layout_alignTop="@+id/cityEditText"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/cityEditText"
+                android:layout_alignBottom="@+id/cityEditText"
+                android:backgroundTint="@color/colorAccent" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="70sp"
+                android:textAlignment="center"
+                android:entries="@array/specialists"
+                android:textSize="30sp"
+                android:id="@+id/specialistSpinner"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_above="@+id/betterDoctorCreditTextView"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ots_img_home" />
+
+            <TextView
+                android:id="@+id/chooseSpecialistTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/specialistSpinner"
+                android:layout_centerHorizontal="true"
+                android:text="Choose a Specialist"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/material_grey_850"
+                android:textSize="25dp" />
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</FrameLayout>

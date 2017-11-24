@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/card_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="25dp"
+            android:text="Dr Arun Lal Triphati"
+            android:textAlignment="viewStart"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/doctor_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" kfjg skfjg skfjg lkfjgkl sfjg skfgjskl fgjsfgjlk fjgiu kfj sgkfgj lgksjfij lk kjgkfd jkjfgskd"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/doctor_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="physian/syhajjdfk/kdfjdkfd"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/doctor_image"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:padding="8dp"
+            android:scaleType="centerCrop" />
+
+
+        android:textColor="@color/cardview_light_background" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/doctor_fees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500 Rs"
+                    android:textColor="@color/bb_darkBackgroundColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/doctor_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Jammu"
+                    android:textColor="@color/bb_darkBackgroundColor"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/book_button"
+                    android:layout_width="65dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/email_button"
+                    android:text="Book"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
