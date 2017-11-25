@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "390977932714",
+    "firebase_url": "https://otshealth-4bc93.firebaseio.com",
+    "project_id": "otshealth-4bc93",
+    "storage_bucket": "otshealth-4bc93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390977932714:android:162d32250996d420",
+        "android_client_info": {
+          "package_name": "com.example.kpmadan.health_ots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390977932714-vu23ccbkuj96l3kvjempdctpmgimn9vl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kpmadan.health_ots",
+            "certificate_hash": "13869228b496b58ffd4096a408ab6532b0c37661"
+          }
+        },
+        {
+          "client_id": "390977932714-oob8ri686ac1v82qk4lgj2o71udeknhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6se4tEDhUKA31JeTLAllYxqs-dF_-zgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390977932714-oob8ri686ac1v82qk4lgj2o71udeknhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390977932714:android:3ca755f21525566a",
+        "android_client_info": {
+          "package_name": "com.example.kpmadan.otshealthproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390977932714-ggarlm9ttln0p6dqsdgikqnk4q77637o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kpmadan.otshealthproject",
+            "certificate_hash": "13869228b496b58ffd4096a408ab6532b0c37661"
+          }
+        },
+        {
+          "client_id": "390977932714-oob8ri686ac1v82qk4lgj2o71udeknhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6se4tEDhUKA31JeTLAllYxqs-dF_-zgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390977932714-oob8ri686ac1v82qk4lgj2o71udeknhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
