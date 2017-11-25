@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background="@drawable/gradient_background"
+android:gravity="center"
+android:orientation="vertical"
+android:padding="40dp">
+
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_marginBottom="100dp"
+    android:src="@drawable/ots3" />
+
+
+<Button
+    android:id="@+id/signUpEmail
+
+"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:background="#79a209df"
+    android:text="Sign Up With Email"
+    android:onClick="signUpWithEmail"
+    android:textColor="#cccccc" />
+
+<Button
+    android:id="@+id/signUpPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:background="#79a209df"
+    android:onClick="signUpWithPhone"
+    android:text=" Sign Up with Phone "
+    android:textColor="#cccccc" />
+
+
+<com.google.android.gms.common.SignInButton
+    android:id="@+id/google_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:text="Sign Up with Google"
+    app:buttonSize="wide"
+    app:colorScheme="dark">
+
+
+</com.google.android.gms.common.SignInButton>
+
+</LinearLayout>

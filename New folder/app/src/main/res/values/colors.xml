@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#9b0493</color>
+        <color name="colorAccent">#FF4081</color>
+
+        <color name="separator_line">#ECECEC</color>
+        <color name="title">#222222</color>
+        <color name="subtitle">#999999</color>
+        <!-- Screens background color-->
+        <color name="startblue">#f64c73</color>
+        <color name="bg_screen1">#f64c73</color>
+        <color name="bg_screen2">#20d2bb</color>
+        <color name="bg_screen3">#3f51b5</color>
+        <color name="endblue">#3f51b5</color>
+        <color name="bg_screen4">#c873f4</color>
+        <color name="theme_primary_text_inverted">#ffffff</color>
+        <color name="theme_secondary_text_inverted">#8affffff</color>
+
+        <color name="theme_primary">#2196f3</color>
+        <!-- dots inactive colors -->
+        <color name="dot_dark_screen1">#d1395c</color>
+        <color name="dot_dark_screen2">#14a895</color>
+        <color name="dot_dark_screen3">#2278d4</color>
+        <color name="dot_dark_screen4">#a854d4</color>
+
+        <!-- dots active colors -->
+        <color name="dot_light_screen1">#f98da5</color>
+        <color name="dot_light_screen2">#8cf9eb</color>
+        <color name="dot_light_screen3">#93c6fd</color>
+        <color name="dot_light_screen4">#e4b5fc</color>
+        <color name="logo_color">#e8eaf6</color>
+
+        <array name="array_dot_active">
+            <item>@color/dot_light_screen1</item>
+            <item>@color/dot_light_screen2</item>
+            <item>@color/dot_light_screen3</item>
+            <item>@color/dot_light_screen4</item>
+        </array>
+
+        <array name="array_dot_inactive">
+            <item>@color/dot_dark_screen1</item>
+            <item>@color/dot_dark_screen2</item>
+            <item>@color/dot_dark_screen3</item>
+            <item>@color/dot_dark_screen4</item>
+        </array>
+
+    <color name="colorTextIcons">#ffffff</color>
+
+    <color name="colorSecondaryAccent">#ffc107</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    </resources>
+
